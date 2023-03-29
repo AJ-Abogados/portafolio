@@ -48,22 +48,25 @@ body {
 
 .sidebar .menu .btn {
 	text-align: center;
-	font-family: 'Cinzel', serif;
+	
+}
+
+.sidebar .menu .btn:hover {
+	color: #bc9a02;
+	animation: btnhover 0.5s ease-in 0s 1 normal forwards;
+}
+
+.sidebar .menu .btn a{
+	text-decoration: none;
 	color: #000033;
 	font-weight: 800;
 	letter-spacing: 0.1rem;
 	text-transform: uppercase;
 	line-height: 3;
-	
-
 }
-
-.sidebar .menu .btn:hover {
-	font-family: 'Cinzel', serif;
+.sidebar .menu .btn a:hover {
 	color: #bc9a02;
 	animation: btnhover 0.5s ease-in 0s 1 normal forwards;
-
-
 }
 
 .contenido { 
@@ -88,17 +91,14 @@ body {
 }
 .inicio b {
 	text-align: center;
-	font-family: 'Cinzel', serif;
 	color: #bc9a02;
 	font-size: 6rem;
 	letter-spacing: 0.1rem;
 	text-transform: uppercase;
-
 }
 
 .inicio c {
 	text-align: center;
-	font-family: 'Cinzel', serif;
 	color: white;
 	font-size: 6rem;
 	letter-spacing: 0.1rem;
@@ -109,6 +109,50 @@ body {
 	color: white;
 	text-align: center;
 }
+
+.abogados {
+	margin: 0px;
+	width: 100%;
+	height: 590px;
+	background: white;
+	display: flex;
+  	flex-direction: column;
+}
+
+
+
+h1{
+	margin-left: 10%;
+	color: #bc9a02;
+	font-size: 2.5rem;
+	text-transform: uppercase;
+
+}
+h2{
+	margin-left: 10%;
+	color: #000033;
+	font-size: x-large;
+	text-transform: uppercase;
+
+}
+h3{
+	margin-left: 10%;
+	color: #bc9a02;
+	font-size:large;
+	text-transform: uppercase;
+	
+}
+p{
+	margin-left: 10%;
+	color: #01015c;
+}
+line{
+	margin-left: 10%;
+	color: #01015c;
+	line-height: 0.5;
+}
+
+
 
 @media (max-width: 1040px) or (max-height: 600px) {
 	.layout {
@@ -142,7 +186,6 @@ body {
 	}
 	.sidebar .menu .btn {
 		height: 60px;
-		font-family: 'Cinzel', serif;
 		color: #000033;
 		text-transform: uppercase;
 	}
